@@ -1,5 +1,5 @@
 ﻿using AdventOfCode2021;
 
-var day = new Day07();
+var day = new Day08();
 
-Console.WriteLine(day.GetPart2());
+Console.WriteLine(day.GetPart1());
