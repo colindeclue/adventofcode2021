@@ -46,5 +46,15 @@ public static class ArrayExtensions
             source = source.Skip(chunksize);
         }
     }
+
+    public static T[] Rotate<T>(this T[] source)
+    {
+        for(int i = 1; i < source.Length; i++)
+        {
+            source[i - 1] = source[i];
+        }
+
+        return source;
+    }
 }
 

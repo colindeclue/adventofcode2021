@@ -13,6 +13,8 @@
     <None Remove="Day03\" />
     <None Remove="Extensions\" />
     <None Remove="Day04.cs\" />
+    <None Remove="Day05\" />
+    <None Remove="Day06\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Day01\" />
@@ -20,6 +22,8 @@
     <Folder Include="Day03\" />
     <Folder Include="Extensions\" />
     <Folder Include="Day04\" />
+    <Folder Include="Day05\" />
+    <Folder Include="Day06\" />
   </ItemGroup>
   <ItemGroup>
     <Compile Update="Day01\Day01.cs">
@@ -37,6 +41,12 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Update="Day04\Day04Input.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Day05\Day05Input.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Day06\Day06Input.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
   </ItemGroup>
